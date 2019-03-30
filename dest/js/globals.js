@@ -63,6 +63,34 @@ $(document).ready(function () {
     });
   }
 
+  $(".js-banner").each(function () {
+    var slider = new Swiper(this, {
+      init: false,
+      slidesPerView: 1,
+      autoplay: {
+        delay: 2500
+      },
+      speed: 800,
+      loop: true,
+      pagination: {
+        el: ".banner__pagination",
+        clickable: true
+      }
+    });
+
+    slider.on("slideChange", function () {
+      var text = $(".banner__text");
+      $(text).removeClass("active");
+    });
+
+    slider.on("init, transitionStart", function () {
+      var text = $(".banner .swiper-slide-active .banner__text");
+      $(text).addClass("active");
+    });
+
+    slider.init();
+  });
+
   $(".md-video").on("hide.bs.modal", function () {
     $(this).find("iframe").attr("src", "");
   });
