@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- vendor style-->
+        <link rel="stylesheet" href="./vendor/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./vendor/swiper/css/swiper.min.css" />
+        <!-- custom style-->
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- header-->
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="container">
+                    <div class="header__inner">
+                        <button class="header__btn navbar-mobile-btn" type="button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <a class="header__logo" href="#!">
+                            <img src="./images/logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav class="navigation">
+            <div class="container">
+                <div class="navbar-backdrop"></div>
+                <div class="navbar navbar-mobile navbar-expand-xl">
+                    <div class="navbar-header">
+                        <button class="navbar-close" type="button">
+                            <i class="fa fa-long-arrow-left"></i>
+                        </button>
+                        <div class="navbar-title">Navigation</div>
+                    </div>
+                    <ul class="menu">
+                        <li class="menu__item">
+                            <a class="menu__link menu__link--home" href="#!">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li class="menu__item menu__dropdown active">
+                            <a class="menu__link" href="#!">VỀ IREC</a>
+                            <ul class="menu__sub">
+                                <li class="menu__sub-item">
+                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                </li>
+                                <li class="menu__sub-item">
+                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                </li>
+                                <li class="menu__sub-item menu__dropdown">
+                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                    <ul class="menu__sub menu__sub--dropright">
+                                        <li class="menu__sub-item">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                        </li>
+                                        <li class="menu__sub-item">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                        </li>
+                                        <li class="menu__sub-item">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                        </li>
+                                        <li class="menu__sub-item menu__dropdown">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                            <ul class="menu__sub menu__sub--dropright">
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#!">CHIROPRACTIC</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#!">PHYSIO THERAPY</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#!">BỆNH LÝ CỘT SỐNG</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#!">BỆNH LÝ XƯƠNG-KHỚP</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#!">TIN TỨC</a>
+                        </li>
+                        <li class="menu__item">
+                            <a class="menu__link" href="#!">CÂU CHUYỆN BỆNH NHÂN</a>
+                        </li>
+                    </ul>
+                    <div class="h-info">
+                        <div class="h-info__item">
+                            <img class="h-info__icon" src="./images/icon-map-marker.png" alt="" />
+                            <div class="h-info__text">
+                                <p>Tầng 6, số 52 Bà Triệu, Hoàn Kiếm, Hà Nội</p>
+                            </div>
+                        </div>
+                        <div class="h-info__item">
+                            <img class="h-info__icon" src="./images/icon-phone-call.png" alt="" />
+                            <div class="h-info__text">
+                                <p>
+                                    <a class="text-default d-inline-block" href="tel: 02436895252">(024) 3689 5252</a>
+                                    <br/>
+                                    <a class="text-default d-inline-block" href="tel: 0914838232">0914 838 232</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-info__item">
+                            <img class="h-info__icon" src="./images/icon-date-time.png" alt="" />
+                            <div class="h-info__text">
+                                <p>Thứ 2 | Thứ 3: Từ 8h - 17h
+                                    <br/>Thứ 4: 8h - 19h
+                                    <br/>Thứ 5 | Thứ 6 | Thứ 7: 8h - 17h</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- main content-->
+        <!-- banner-->
+        <section>
+            <img class="d-block w-100" src="./images/landingpage-banner.png" alt="">
+        </section>
+        <!---->
+        <section class="lp-define section">
+            <div class="container">
+                <h2 class="lp-define__title section__title">Thoát vị đĩa đệm là gì</h2>
+                <div class="lp-define__content">
+                    <div>
+                        <p>Đĩa đệm cột sống là những tấm đệm nằm giữa các đốt sống có nhân nhày nằm ở giữa và được bao bọc bởi vòng sơ bên ngoài, có chức năng giảm áp lực lên cột sống khi chúng ta hoạt động.</p>
+                        <p>Khi đĩa đệm bị tổn thương hoặc trở nên suy yếu, bao xơ bên ngoài có thể bị mòn, khô gãy, rách, … khiến nhân nhày bên trong thoát ra ngoài, gây chèn ép vào các rễ thần kinh qua các lỗ liên hợp trên đốt sống làm ảnh hưởng nghiêm
+                            trọng tới sức khỏe cơ thể - được gọi là thoát vị đĩa đệm với các mức độ biểu hiện khác nhau ở từng giai đoạn:</p>
+                    </div>
+                    <div class="row mt-20">
+                        <div class="col-md-6 col-lg-3 lp-define__item">
+                            <img class="lp-define__arrow" src="./images/icon-arrow-circle-right.png" alt="">
+                            <div class="lp-define__iwrap">
+                                <img src="./images/define-img-1.png" alt="">
+                            </div>
+                            <div class="lp-define__subtitle">GIAI ĐOẠN I</div>
+                            <div class="lp-define__bold-text">Phình/ Lồi đĩa đệm</div>
+                            <div class="lp-define__text">Bao xơ vẫn bình thường, tuy nhiên nhân nhầy đã có xu hướng biến dạng. Giai đoạn này thường khó phát hiện do những cơn đau không rõ ràng nên rất dễ nhầm lẫn với đau lưng thông thường.</div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 lp-define__item">
+                            <img class="lp-define__arrow" src="./images/icon-arrow-circle-right.png" alt="">
+                            <div class="lp-define__iwrap">
+                                <img src="./images/define-img-2.png" alt="">
+                            </div>
+                            <div class="lp-define__subtitle">GIAI ĐOẠN II</div>
+                            <div class="lp-define__bold-text">Sa đĩa đệm</div>
+                            <div class="lp-define__text">Bao xơ bị suy yếu, nhân nhầy vẫn nằm trong bao xơ. Tuy nhiên, giai đoạn này bắt đầu gây ra sự chèn ép lên dây thần kinh nên bệnh nhân có thể gặp phải những cơn đau lưng dữ dội.</div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 lp-define__item">
+                            <img class="lp-define__arrow" src="./images/icon-arrow-circle-right.png" alt="">
+                            <div class="lp-define__iwrap">
+                                <img src="./images/define-img-3.png" alt="">
+                            </div>
+                            <div class="lp-define__subtitle">GIAI ĐOẠN III</div>
+                            <div class="lp-define__bold-text">Thoát vị đĩa đệm thực thụ</div>
+                            <div class="lp-define__text">Bao xơ đã bị rách, nhân nhầy thoát ra ngoài nhưng vẫn là một khối với nhau. Chúng chèn ép vào dây thần kinh gây đau lưng dữ dội, người mệt mỏi, rối loạn cảm giác, rối loạn dây thần kinh thực vật, vận động, đi lại khó khăn.</div>
+                        </div>
+                        <div class="col-md-6 col-lg-3 lp-define__item">
+                            <img class="lp-define__arrow" src="./images/icon-arrow-circle-right.png" alt="">
+                            <div class="lp-define__iwrap">
+                                <img src="./images/define-img-4.png" alt="">
+                            </div>
+                            <div class="lp-define__subtitle">GIAI ĐOẠN IV</div>
+                            <div class="lp-define__bold-text">Thoát vị đĩa đệm có mảnh rời</div>
+                            <div class="lp-define__text">Khi khối thoát vị lớn, nhân nhày có hiện tượng tách ra khỏi khối, dẫn đến nhiều biến chứng nghiêm trọng và nguy cơ liệt nửa người vĩnh viễn.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section lp-recognize">
+            <div class="container">
+                <h2 class="section__title">Nhận biết sớm các dấu hiệu thoát vị đĩa đệm</h2>
+                <div class="lp-recognize__desc">
+                    <p>Thoát vị đĩa đệm thường xảy ra ở cột sống cổ và cột sống thắt lưng, vì đây là hai đoạn cột sống chịu nhiều trọng lượng và hoạt động nhiều nhất. tùy vào vị trí thoát vị sẽ ảnh hưởng đến cơ xương, thần kinh liên quan.</p>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-6">
+                        <div class="lp-recognize__block">
+                            <h3 class="lp-recognize__subtitle">THOÁT VỊ ĐĨA ĐỆM CỘT SỐNG CỔ</h3>
+                            <div class="lp-recognize__detail">
+                                <ul>
+                                    <li>
+                                        <img src="./images/icon-arrow-black.png" alt=""> Đau dọc vùng gáy.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-black.png" alt=""> Đau lan rộng từ bả vai đến tay, tê dọc cánh tay và bàn tay.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-black.png" alt=""> Cơn đau diễn ra liên tục hoặc ngắt quãng, đau tăng khi nghiêng, xoay, cúi, ngửa cổ hoặc hắt hơi, ho.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-black.png" alt=""> Giảm cảm giác, giảm lực cơ tay, ảnh hưởng đến sinh hoạt hàng ngày.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-black.png" alt=""> Thời gian dài, người bệnh có thể bị tê liệt vùng cổ và các chi.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="lp-recognize__block lp-recognize__block--right">
+                            <h3 class="lp-recognize__subtitle lp-recognize__subtitle--left">THOÁT VỊ ĐĨA ĐỆM CỘT SỐNG THẮT LƯNG</h3>
+                            <div class="lp-recognize__detail">
+                                <ul>
+                                    <li>
+                                        <img src="./images/icon-arrow-white.png" alt=""> Đau vùng thắt lưng đột ngột dữ dội hoặc âm ỉ liên tục, đau buốt từng cơn.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-white.png" alt=""> Cơn đau biến mất khi người bệnh nghỉ ngơi. Tuy nhiên, khi ho, hắt hơi, nằm nghiêng hoặc vận động mạnh, cơn đau sẽ càng tăng.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-white.png" alt=""> Đau dọc vùng mông, mặt trước và mặt sau đùi, có cảm giác tê bì phần mu bàn chân.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-white.png" alt=""> Hạn chế cử động, mất khả năng ưỡn lưng hoặc cúi xuống thấp.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-white.png" alt=""> Có tư thế nghiêng hoặc vẹo về một bên để chống đau.
+                                    </li>
+                                    <li>
+                                        <img src="./images/icon-arrow-white.png" alt=""> Giai đoạn nặng người bệnh không thể tự chủ tiểu tiện, đại tiện, teo cơ, thậm chí bại liệt.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Biến chứng của thoát vị đĩa đệm</h2>
+                <div class="row">
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 mb-30">
+                        <div class="feature">
+                            <div class="feature__iwrap">
+                                <img src="./images/feature-img-1.png" alt="">
+                            </div>
+                            <div class="feature__title">Rối loạn đại tiểu tiện</div>
+                            <div class="feature__desc">
+                                <p>Thoát vị đĩa đệm tác dây thần kinh ở vùng thắt lưng dẫn đến hiện tượng rối loạn cơ tròn, dẫn đến chứng đại tiểu tiện không tự chủ.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 mb-30">
+                        <div class="feature">
+                            <div class="feature__iwrap">
+                                <img src="./images/feature-img-2.png" alt="">
+                            </div>
+                            <div class="feature__title">Ảnh hưởng tới thần kinh</div>
+                            <div class="feature__desc">
+                                <p>Điểm thoát vị đĩa đệm gây chèn ép và làm tổn thương dây thần kinh bị và gây đau nhức khó chịu... Nếu không được điều trị và chú ý tư thế, các cơn đau sẽ xuất hiện ngày càng thường xuyên, không chỉ gây đau ở vùng cổ hoặc
+                                    thắt lưng mà còn lan xuống tay chân, đặc biệt là khi vận động hoặc làm việc nặng…</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 mb-30">
+                        <div class="feature">
+                            <div class="feature__iwrap">
+                                <img src="./images/feature-img-3.png" alt="">
+                            </div>
+                            <div class="feature__title">Bị teo cơ</div>
+                            <div class="feature__desc">
+                                <p>Tổn thương sau khi bị chèn ép bởi bệnh thoát vi đĩa đệm sẽ làm giảm lưu thông máu đến các cơ, lâu dần sẽ khiến cơ mất dần chất dinh dưỡng, làm giảm sức mạnh cơ bắp, giảm khả năng vận động của người bệnh.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 mb-30">
+                        <div class="feature">
+                            <div class="feature__iwrap">
+                                <img src="./images/feature-img-4.png" alt="">
+                            </div>
+                            <div class="feature__title">Rối loạn cảm giác</div>
+                            <div class="feature__desc">
+                                <p>Thoát vị đĩa đệm làm tổn thương đến dây thần kinh, do đó những vùng da ở vị trí tương ứng với vùng rễ dây thần kinh thường có cảm giác nóng lạnh và mất đi cảm giác tê bì chân tay.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 mb-30">
+                        <div class="feature">
+                            <div class="feature__iwrap">
+                                <img src="./images/feature-img-5.png" alt="">
+                            </div>
+                            <div class="feature__title">Gây liệt tàn phế</div>
+                            <div class="feature__desc">
+                                <p>Thoát vị đĩa đệm nếu không được chữa trị kịp thời sẽ gây ra biến chứng nguy hiểm nhất chính là tàn phế (giới hạn chuyển động vĩnh viễn). Vì vậy, người bệnh cần khám tầm soát thoát vị đĩa đệm sớm để điều trị bệnh kịp thời,
+                                    tránh gặp phải biến chứng nghiêm trọng này.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 offset-sm-2 col-md-6 offset-md-0 col-lg-4 mb-30">
+                        <div class="feature">
+                            <div class="feature__iwrap">
+                                <img src="./images/feature-img-6.png" alt="">
+                            </div>
+                            <div class="feature__title">Hội chứng đau khập khễnh cách hồi</div>
+                            <div class="feature__desc">
+                                <p>Là một dạng đau rễ thần kinh ngắt quãng, hội chứng này chỉ xuất hiện khi người bệnh đi được một đoạn đường thì không thể tiếp tục di chuyển, và buộc phải nghỉ ngơi một lúc thì mới có thể tiếp tục.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section recuperate">
+            <div class="container">
+                <h2 class="section__title">Phục hồi đĩa đệm không phẫu thuật</h2>
+                <div class="recuperate__desc">
+                    <p>Hiện nay có rất nhiều phương pháp điều trị thoát vị đĩa đệm như dùng thuốc, vật lý trị liệu, châm cứu, xoa bóp… kết hợp cùng các bài tập luyện hỗ trợ khác. Tuy nhiên, những phương pháp này dễ làm chệch hướng điều trị và đánh lừa cảm
+                        giác của người bệnh khi giảm các cơn đau nhanh chóng, trong khi các sai lệch và tổn thương ở đĩa đệm vẫn tồn tại. Khi tình trạng thoát vị nặng, bác sĩ có thể khuyên bệnh nhân nên phẫu thuật. Phương pháp này tuy có tỉ lệ thành công
+                        cao nhưng có khả năng để lại nhiều rủi ro và di chứng về sau, cùng nguy cơ tái phát sau phẫu thuật khá cao.</p>
+                    <p>Do vậy, điều trị thoát vị đĩa đệm với phương pháp CHIROPRACTIC kết hợp GIẢM ÁP CỘT SỐNG KHÔNG PHẪU THUẬT + PHYSIO THERAPY + VẬN ĐỘNG TRỊ LIỆU vẫn được coi là giải pháp tối ưu với các tiêu chí vượt trội:</p>
+                    <div class="criteria-wrap">
+                        <div class="criteria">
+                            <div class="criteria__iwrap">
+                                <img src="./images/icon-criteria-1.png" alt="">
+                            </div>
+                            <div class="criteria__text">
+                                <strong>ĐIỀU TRỊ</strong>
+                                <br>
+                                <span>từ gốc bệnh</span>
+                            </div>
+                        </div>
+                        <div class="criteria">
+                            <div class="criteria__iwrap">
+                                <img src="./images/icon-criteria-2.png" alt="">
+                            </div>
+                            <div class="criteria__text">
+                                <strong>KHÔNG</strong>
+                                <br>
+                                <span>tiêm</span>
+                            </div>
+                        </div>
+                        <div class="criteria">
+                            <div class="criteria__iwrap">
+                                <img src="./images/icon-criteria-3.png" alt="">
+                            </div>
+                            <div class="criteria__text">
+                                <strong>KHÔNG</strong>
+                                <br>
+                                <span>dùng thuốc</span>
+                            </div>
+                        </div>
+                        <div class="criteria">
+                            <div class="criteria__iwrap">
+                                <img src="./images/icon-criteria-4.png" alt="">
+                            </div>
+                            <div class="criteria__text">
+                                <strong>HẠN CHẾ</strong>
+                                <br>
+                                <span>các nguy cơ phẫu thuật</span>
+                            </div>
+                        </div>
+                    </div>
+                    <p>Tùy theo tình trạng bệnh lý của mỗi bệnh nhân, các Giáo sư, Bác sĩ tại IREC sẽ lên phác đồ điều trị cho từng giai đoạn nhằm tối đa hóa hiệu quả liệu trình & rút ngắn thời gian điều trị.</p>
+                </div>
+                <div class="recuperate__wrapper">
+                    <div class="row no-gutters">
+                        <div class="col-lg-5">
+                            <ul class="recuperate__tabs nav" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#recuperate-tab-1" data-toggle="tab" role="tab">CHIROPRACTIC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#recuperate-tab-2" data-toggle="tab" role="tab">D.O.C - HỆ THỐNG GIẢM ÁP CỘT SỐNG KHÔNG PHẪU THUẬT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#recuperate-tab-3" data-toggle="tab" role="tab">VẬT LÝ TRỊ LIỆU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#recuperate-tab-4" data-toggle="tab" role="tab">ĐIỀU TRỊ CƠ CHUYÊN SÂU</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#recuperate-tab-5" data-toggle="tab" role="tab">VẬN ĐỘNG TRỊ LIỆU</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-7">
+                            <div class="tab-content">
+                                <div class="tab-pane fade active show" id="recuperate-tab-1" role="tabpanel">
+                                    <div class="recuperate__post">
+                                        <p style="font-size: 20px; font-weight: bold; text-transform: uppercase;">D.O.C - HỆ THỐNG GIẢM ÁP CỘT SỐNG KHÔNG PHẪU THUẬT</p>
+                                        <p>D.O.C được lập trình sẵn 12 chương trình cho các phác đồ điều trị thoát vị đĩa đệm khác nhau, cùng với khả năng cảm biến chính xác từng điểm sai lệch trên cột sống để tính toán lực kéo phù hợp với phản ứng của cơ
+                                            và khớp giúp đạt hiệu quả điều trị tối ưu, rút ngắn được thời điều trị so với giường kéo thông thường.</p>
+                                        <p>Điều đặc biệt của thiết bị này còn nằm ở chức năng sử dụng lực logarithm – hỗ trợ đắc lực về giảm áp suất nội đĩa đệm:</p>
+                                        <ul>
+                                            <li>Giúp mở rộng không gian giữa các khớp xương.</li>
+                                            <li>Tăng cường trao đổi chất trong đĩa đệm.</li>
+                                            <li>Tích trữ các chất dinh dưỡng và đưa lưu lượng máu vào đĩa đệm giúp làm lành tổn thương.</li>
+                                        </ul>
+                                        <p>D.O.C không giới hạn vị trí điều trị: Hệ thống điều khiển tiên tiến của thiết bị này còn có chức năng tùy chỉnh đa dạng và giám sát góc nghiêng với nhiều tư thế nằm khác nhau (co, duỗi, thẳng, nghiêng, xoay, uốn
+                                            cong) nhằm xác định chính xác vị trí các đĩa đệm đang gây ra các cơn đau cho bệnh nhân, giúp điều trị trúng đích với tỉ lệ thành công tới 80%.</p>
+                                        <p>Tại Việt Nam, IREC tự hào là đơn vị sở hữu máy giảm áp cột sống hiện đại nhất thế giới hiện nay.</p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="recuperate-tab-2" role="tabpanel">
+                                    <div class="recuperate__post">
+                                        <h1>tab 2</h1>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="recuperate-tab-3" role="tabpanel">
+                                    <div class="recuperate__post">
+                                        <h1>tab 3</h1>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="recuperate-tab-4" role="tabpanel">
+                                    <div class="recuperate__post">
+                                        <h1>tab 4</h1>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="recuperate-tab-5" role="tabpanel">
+                                    <div class="recuperate__post">
+                                        <h1>tab 5</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Hiệu quả sau điều trị</h2>
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 mb-30">
+                        <div class="effective">
+                            <img class="effective__bg" src="./images/effective-1.png" alt="">
+                            <div class="effective__body">
+                                <h3 class="effective__title">GIẢM ĐAU NHANH CHÓNG</h3>
+                                <div class="effective__desc">
+                                    <ul>
+                                        <li>Giảm đau cường độ cao mà không làm lệch hướng điều trị như thuốc giảm đau.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 mb-30">
+                        <div class="effective">
+                            <img class="effective__bg" src="./images/effective-2.png" alt="">
+                            <div class="effective__body">
+                                <h3 class="effective__title">GIẢM ÁP CỘT SỐNG - PHỤC HỒI ĐĨA ĐỆM</h3>
+                                <div class="effective__desc">
+                                    <ul>
+                                        <li>Giúp mở rộng không gian giữa các khớp xương.</li>
+                                        <li>Tăng cường trao đổi chất trong đĩa đệm.</li>
+                                        <li>Tích trữ các chất dinh dưỡng và đưa lưu lượng máu vào đĩa đệm giúp làm lành tổn thương.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 mb-30">
+                        <div class="effective">
+                            <img class="effective__bg" src="./images/effective-3.png" alt="">
+                            <div class="effective__body">
+                                <h3 class="effective__title">CẢI THIỆN CHỨC NĂNG SINH LÝ</h3>
+                                <div class="effective__desc">
+                                    <ul>
+                                        <li>Khi cột sống và dây thần kinh được giải phóng, cấu trúc mô hư tổn sẽ dần được phục hồi và cải thiện chức năng sinh lý đáng kể cho người thoát vị đĩa đệm cột sống thắt lưng.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-0 col-md-10 offset-md-1 mb-30">
+                        <div class="effective">
+                            <img class="effective__bg" src="./images/effective-4.png" alt="">
+                            <div class="effective__body">
+                                <h3 class="effective__title">CẢI THIỆN CHỨC NĂNG VẬN ĐỘNG</h3>
+                                <div class="effective__desc">
+                                    <ul>
+                                        <li>Giảm áp lực lên các dây thần kinh cột sống và các mô xung quanh khi vận động.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lp-story section">
+            <div class="container">
+                <h2 class="lp-story__title section__title">Câu chuyện của bệnh nhân</h2>
+                <div class="form-row">
+                    <div class="col-sm-6 col-lg-3 mb-10">
+                        <div class="p-2">
+                            <div class="story">
+                                <div class="story__iwrap">
+                                    <img src="./images/story-img-1.png" alt="" />
+                                </div>
+                                <a class="story__overlay js-video-modal-btn" href="#!" data-src="https://www.youtube.com/embed/7A9M1EtSpzw">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-10">
+                        <div class="p-2">
+                            <div class="story">
+                                <div class="story__iwrap">
+                                    <img src="./images/story-img-2.png" alt="" />
+                                </div>
+                                <a class="story__overlay js-video-modal-btn" href="#!" data-src="https://www.youtube.com/embed/7A9M1EtSpzw">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-10">
+                        <div class="p-2">
+                            <div class="story">
+                                <div class="story__iwrap">
+                                    <img src="./images/story-img-3.png" alt="" />
+                                </div>
+                                <a class="story__overlay js-video-modal-btn" href="#!" data-src="https://www.youtube.com/embed/7A9M1EtSpzw">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mb-10">
+                        <div class="p-2">
+                            <div class="story">
+                                <div class="story__iwrap">
+                                    <img src="./images/story-img-4.png" alt="" />
+                                </div>
+                                <a class="story__overlay js-video-modal-btn" href="#!" data-src="https://www.youtube.com/embed/7A9M1EtSpzw">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Câu hỏi thường gặp</h2>
+                <div class="question">
+                    <img class="question__icon" src="./images/icon-question.png" alt="">
+                    <div class="question__text">Làm thế nào để biết được chính xác có bị thoát vị đĩa đệm hay không?</div>
+                </div>
+                <div class="answer">
+                    <img class="answer__icon" src="./images/icon-answer.png" alt="">
+                    <div class="answer__content">
+                        <p>Thoát vị đĩa đệm và xoắn các chùm cơ dọc cột sống đều có triệu chứng tương đồng. Do đó để chuẩn đoán chính xác có bị thoát vị đĩa đệm hay không đòi hỏi phải có các thiết bị hiện đại và kiến thức chuyên khoa của Bác sĩ.</p>
+                        <p>Theo đó, phòng khám IREC được trang bị đầy đủ hệ thống các trang thiết bị chẩn đoán hình ảnh hiện đại như:
+                            <strong>Máy siêu âm 4D Voluson 8 GE Healthcare, Hệ thống chụp cộng hưởng từ Magnetom amira 1.5 Telsa của Siemens, Máy X-quang Kỹ thuật số của Hàn quốc...</strong>
+                            cho kết quả chuẩn đoán chính xác các điểm thoát vị đĩa đệm trên cột sống.
+                        </p>
+                    </div>
+                </div>
+                <div class="question">
+                    <img class="question__icon" src="./images/icon-question.png" alt="">
+                    <div class="question__text">Điều trị với hệ thống giảm áp cột sống không phẫu thuật (D.O.C) như thế nào?</div>
+                </div>
+                <div class="answer">
+                    <img class="answer__icon" src="./images/icon-answer.png" alt="">
+                    <div class="answer__content">
+                        <p>Được trang bị với một hệ thống dây tự động, DOC sẽ từ từ đưa cột sống của bệnh nhân về vị trí phù hợp. Hệ thống dây chằng thoải mái giúp ổn định vùng hông và xương chậu của bệnh nhân. Hầu hết bệnh nhân cho biết: họ hầu như không
+                            cảm thấy cột sống bị khó chịu trong quá trình giảm áp.</p>
+                        <p>Hệ thống điều khiển tiên tiến trong hệ thống giảm áp tự động giúp điều chỉnh và giám sát góc nghiêng thích hợp, cho phép xác định vị trí các đĩa đệm gây ra đau đớn của bệnh nhân; cùng với việc sử dụng đường cong logarithmic để
+                            tránh phản ứng proprioceptor (co thắt cơ thông thường). Ngoài ra, thiết kế giường phân tích giúp giảm ma sát và cho phép tách nhẹ nhàng đốt sống và giảm thiểu tác động của trọng lực.</p>
+                        <p>Thông thường, bệnh nhân chỉ cần thư giãn và máy DOC sẽ tạo ra một hiệu ứng giảm áp trên lưng của bệnh nhân giúp đĩa đệm bị thoát vị trở lại trạng thái bình thường và ngừng gây đau đớn. Việc điều trị giảm áp chỉ như một quá trình
+                            kéo liên tục nhẹ nhàng. Vì vậy, người bệnh có thể thư giãn, thậm chí ngủ thiếp đi trong quá trình điều trị.</p>
+                    </div>
+                </div>
+                <div class="text-center py-20">
+                    <a class="m-btn m-btn--green" href="#!">ĐẶT LỊCH TƯ VẤN MIỄN PHÍ VỚI BÁC SĨ MỸ</a>
+                </div>
+            </div>
+        </section>
+        <section class="lp-intro">
+            <div class="lp-intro__human">
+                <img class="lp-intro__human-bg" src="./images/human-intro-bg.png" alt="">
+                <div class="lp-intro__content">
+                    <p>ĐỘI NGŨ GIÁO SƯ - BÁC SĨ ĐẦU NGÀNH
+                        <br>về Cơ - Xương - Khớp - Thần kinh Cột sống
+                        <br>và Phục hồi chức năng tại Việt Nam.
+                        <br>
+                    </p>
+                    <p style="text-align: center;">
+                        <span style="display: inline-block; width: 300px; max-width: 100%; border-top: 1px solid #fff;"></span>
+                    </p>
+                    <p>Kết hợp với bác sĩ Chiropractic nước ngoài
+                        <br>để trực tiếp thăm khám & điều trị theo suốt liệu trình
+                        <br>cho khách hàng.</p>
+                </div>
+            </div>
+            <div class="lp-intro__equipment">
+                <img class="lp-intro__equipment-bg" src="./images/equipment-intro-bg.png" alt="">
+                <div class="lp-intro__content">
+                    <p>HỆ THỐNG TRANG THIẾT BỊ - CÔNG NGHỆ
+                        <br>HIỆN ĐẠI BẬC NHẤT
+                        <br>Đạt tiêu chuẩn chất lượng dịch vụ 5 sao</p>
+                </div>
+            </div>
+        </section>
+        <article class="md-video modal fade" role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Video</h5>
+                        <button class="close" type="button" data-dismiss="modal">
+                            <span>&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width='560' height='315' src='' frameborder='0' allow='autoplay; encrypted-media' allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <section class="f-contact">
+                            <div class="f-contact__header">
+                                <a class="f-contact__logo" href="./">
+                                    <img src="./images/logo-white.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="f-contact__content">
+                                <p>TẦNG 6, SỐ 52 BÀ TRIỆU, HOÀN KIẾM, HÀ NỘI
+                                    <br/>
+                                    <strong>HOTLINE:</strong>
+                                    <a href="tel:0914838232">0914 838 232</a>
+                                    <br/>
+                                    <br/>
+                                    <strong>TEL:</strong>
+                                    <a href="tel:02436895252">(024) 3689 5252</a>
+                                    <br/>
+                                    <strong>EMAIL:</strong>
+                                    <a href="#!">CONTACT@IREC.COM.VN</a>
+                                </p>
+                                <p>
+                                    <strong>GIỜ MỞ CỬA:</strong>
+                                    <br/>Thứ 2 | Thứ 3: Từ 8h - 17h
+                                    <br/>Thứ 4: 8h - 19h
+                                    <br/>Thứ 5 | Thứ 6 | Thứ 7: 8h - 17h
+                                    <br/>Chủ nhật: NGHỈ</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-7">
+                        <section class="f-about">
+                            <h2 class="f-about__title">Về chúng tôi</h2>
+                            <div class="f-about__content">
+                                <p style="margin-bottom: 10px; font-size: 18px; line-height: 22px;">Là phòng khám đầu tiên tại Việt Nam cung cấp đầy đủ các dịch vụ Chăm sóc sức khỏe hệ Cơ – Xương – Khớp – Cột Sống và Phục hồi chức năng toàn diện, với đầy đủ các chức năng cận lâm sàng & chuẩn đoán hình ảnh cần thiết trong
+                                    cùng một không gian - Irec tự hào là nơi quy tụ đông đảo Giáo sư - Bác sĩ đầu ngành trong nước và các chuyên gia hàng đầu trong lĩnh vực Chiropractic đến từ Mỹ, Anh, Nhật.</p>
+                                <p style="margin-bottom: 10px; font-size: 18px; line-height: 22px;">Kết hợp ứng dụng phương pháp nắn chỉnh thần kinh cột sống Chiropractic cùng hệ thống trang thiết bị Physio Therapy hiện đại nhất thế giới – Irec cam kết mang đến những liệu trình khoa học, chuyên sâu, rút ngắn thời gian
+                                    phục hồi, đồng thời tối đa hóa hiệu quả điều trị cho khách hàng mà hoàn toàn KHÔNG dùng thuốc, KHÔNG tiêm và HẠN CHẾ tối đa các nguy cơ phẫu thuật.</p>
+                            </div>
+                        </section>
+                        <ul class="f-social">
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-facebook-o.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-wechat-o.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-twitter-o.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-instagram-o.png" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copyright">Copyright © 2019 IREC CLINIC - all rights reserved</div>
+            </div>
+        </footer>
+        <!-- javascript library-->
+        <!-- vendor script-->
+        <script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="./vendor/popper/popper.min.js"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./vendor/swiper/js/swiper.min.js"></script>
+        <!-- custom script-->
+        <script src="./js/globals.js"></script>
+    </body>
+</html>
