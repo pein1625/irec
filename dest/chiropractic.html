@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Description" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- vendor style-->
+        <link rel="stylesheet" href="./vendor/font-awesome-4.7.0/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="./vendor/swiper/css/swiper.min.css" />
+        <!-- custom style-->
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- header-->
+        <header class="header">
+            <div class="header__wrapper">
+                <div class="container">
+                    <div class="header__inner">
+                        <button class="header__btn navbar-mobile-btn" type="button">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <a class="header__logo" href="#!">
+                            <img src="./images/logo.png" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <nav class="navigation">
+                    <div class="container">
+                        <div class="navbar-backdrop"></div>
+                        <div class="navbar navbar-mobile navbar-expand-xl">
+                            <div class="navbar-header">
+                                <button class="navbar-close" type="button">
+                                    <i class="fa fa-long-arrow-left"></i>
+                                </button>
+                                <div class="navbar-title">Navigation</div>
+                            </div>
+                            <ul class="menu">
+                                <li class="menu__item">
+                                    <a class="menu__link menu__link--home" href="#!">
+                                        <i class="fa fa-home"></i>
+                                    </a>
+                                </li>
+                                <li class="menu__item menu__dropdown active">
+                                    <a class="menu__link" href="#!">VỀ IREC</a>
+                                    <ul class="menu__sub">
+                                        <li class="menu__sub-item">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                        </li>
+                                        <li class="menu__sub-item">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                        </li>
+                                        <li class="menu__sub-item">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                        </li>
+                                        <li class="menu__sub-item menu__dropdown">
+                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                            <ul class="menu__sub menu__sub--dropright">
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                                <li class="menu__sub-item">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                </li>
+                                                <li class="menu__sub-item menu__dropdown">
+                                                    <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                    <ul class="menu__sub menu__sub--dropright">
+                                                        <li class="menu__sub-item">
+                                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                        </li>
+                                                        <li class="menu__sub-item">
+                                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                        </li>
+                                                        <li class="menu__sub-item">
+                                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                        </li>
+                                                        <li class="menu__sub-item">
+                                                            <a class="menu__sub-link" href="#!">Sub menu link</a>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#!">CHIROPRACTIC</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#!">PHYSIO THERAPY</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#!">BỆNH LÝ CỘT SỐNG</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#!">BỆNH LÝ XƯƠNG-KHỚP</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#!">TIN TỨC</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a class="menu__link" href="#!">CÂU CHUYỆN BỆNH NHÂN</a>
+                                </li>
+                            </ul>
+                            <div class="h-info">
+                                <div class="h-info__item">
+                                    <img class="h-info__icon" src="./images/icon-map-marker.png" alt="" />
+                                    <div class="h-info__text">
+                                        <p>Tầng 6, số 52 Bà Triệu, Hoàn Kiếm, Hà Nội</p>
+                                    </div>
+                                </div>
+                                <div class="h-info__item">
+                                    <img class="h-info__icon" src="./images/icon-phone-call.png" alt="" />
+                                    <div class="h-info__text">
+                                        <p>
+                                            <a class="text-default d-inline-block" href="tel: 02436895252">(024) 3689 5252</a>
+                                            <br/>
+                                            <a class="text-default d-inline-block" href="tel: 0914838232">0914 838 232</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="h-info__item">
+                                    <img class="h-info__icon" src="./images/icon-date-time.png" alt="" />
+                                    <div class="h-info__text">
+                                        <p>Thứ 2 | Thứ 3: Từ 8h - 17h
+                                            <br/>Thứ 4: 8h - 19h
+                                            <br/>Thứ 5 | Thứ 6 | Thứ 7: 8h - 17h</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- main content-->
+        <section>
+            <picture class="w-100">
+                <source srcset="./images/chiropractic-banner.jpg" media="(min-width: 768px)">
+                <img class="w-100" srcset="./images/chiropractic-banner-small.jpg" alt="…">
+            </picture>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="title">Chiropractic là gì?</h2>
+                <div class="text-content">
+                    <p>Chiropractic là phương pháp nắn chỉnh cột sống ra đời từ năm 1895 tại Mỹ bởi Daniel David Palmer. Đến nay, sau 120 năm phát triển, Chiropractic đã trở nên phổ biến và được công nhận tại 65 quốc gia với hơn 70.000 trung tâm Chiropractic
+                        - Là phương pháp được cân nhắc đầu tiên trước các giải pháp nội khoa (có dùng thuốc) để điều trị cơ, xương, khớp & cột sống hiệu quả nhất.</p>
+                </div>
+                <div class="row no-gutters justify-content-center">
+                    <div class="col-xl-20 col-4">
+                        <div class="square-img">
+                            <img src="./images/chiropractic-define-1.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-20 col-4">
+                        <div class="square-img">
+                            <img src="./images/chiropractic-define-2.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-20 col-4">
+                        <div class="square-img">
+                            <img src="./images/chiropractic-define-3.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-20 col-4">
+                        <div class="square-img">
+                            <img src="./images/chiropractic-define-4.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-20 col-4">
+                        <div class="square-img">
+                            <img src="./images/chiropractic-define-5.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="title">Cơ chế tác động của Chiropractic</h2>
+                <div class="text-content">
+                    <p>Chiropractic điều trị bằng cách
+                        <strong>can thiệp từ gốc rễ triệu chứng</strong>
+                        và nguyên nhân gây đau mỏi chứ không điều trị triệu chứng như các giải pháp nội khoa mà
+                        <strong>KHÔNG</strong>
+                        tiêm,
+                        <strong>KHÔNG</strong>
+                        dùng thuốc,
+                        <strong>KHÔNG</strong>
+                        phẫu thuật.
+                    </p>
+                    <p>Dựa trên những chẩn đoán chính xác các điểm sai lệch trên cột sống,
+                        <strong>bác sĩ Chiropractic</strong> sẽ sử dụng kĩ thuật bằng tay kết hợp máy móc chuyên biệt để tiến hành nắn chỉnh những sai lệch đó nhằm giải phóng sự chèn ép của các đốt sống sai vị trí lên dây thần kinh hoặc tủy sống, kích thích cơ
+                        chế tự chữa lành của cơ thể.</p>
+                </div>
+            </div>
+        </section>
+        <div class="mb-3">
+            <picture class="w-100">
+                <source srcset="./images/chiropractic-mechanism.jpg" media="(min-width: 768px)">
+                <img class="w-100" srcset="./images/chiropractic-mechanism-small.jpg" alt="…">
+            </picture>
+        </div>
+        <section>
+            <div class="container">
+                <div class="text-content">
+                    <p>Tất cả các chức năng cơ thể đều được kết nối với nhau. Do vậy quá trình chữa bệnh đòi hỏi bao gồm toàn bộ cơ thể.</p>
+                    <p>Một hệ thống thần kinh khỏe mạnh, đặc biệt là thần kinh cột sống, là yếu tố quan trọng để cơ thể khỏe mạnh. Tủy sống đưa ra tín hiệu đến các cơ quan và chịu trách nhiệm về nhiều chức năng của cơ thể. Khi hệ thống của cơ thể đã ở trong
+                        trạng thái cân bằng, nó được gọi là sự cân bằng nội môi. Rối loạn xương, cơ và thần kinh làm tăng nguy cơ rối loạn cùng với các vấn đề sức khoẻ khác và có thể phá vỡ sự cân bằng nội môi.</p>
+                    <p>Khi hệ thống cơ thể được hài hòa, nó sẽ có khả năng tự điều chỉnh và phục hồi chính nó.</p>
+                    <p>Do vậy, phương pháp Chiropractic là quá trình điều trị ngắt quãng để cơ thể có thời gian khởi động cơ chế tự điều chỉnh, tự chữa lành của cơ thể, đồng thời kích thích các tiềm năng sức khỏe tối ưu.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="title">Lợi ích của chiropracic</h2>
+                <div class="text-content">
+                    <p>Chiropractic không chỉ được áp dụng rộng rãi trong điều trị các bệnh cơ - xương - khớp - cột sống mà còn phát huy vai trò trong lĩnh vực chăm sóc sức khỏe toàn diện, điều trị dự phòng giúp tối ưu khả năng phát triển của cơ thể và hạn
+                        chế tối đa nguy cơ mắc bệnh cho hiệu quả vượt trội mà không cần lo lắng tới tác dụng phụ như khi sử dụng thuốc.</p>
+                    <p>
+                        <img src="./images/chiropractic-benefit.png" alt="" style="display: block; margin: 0 auto;">
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="container">
+                    <div style="padding: 1px;">
+                        <div class="row no-gutters">
+                            <div class="col-lg-4">
+                                <div class="benefit">
+                                    <div class="benefit__content">
+                                        <ul class="benefit__list">
+                                            <li class="benefit__item">Cải thiện chức năng thần kinh.</li>
+                                            <li class="benefit__item">Tăng cường hệ thống miễn dịch.</li>
+                                            <li class="benefit__item">Tăng cường lưu thông máu lên não giúp ngủ ngon, ngủ sâu giấc và cải thiện trí nhơ.</li>
+                                            <li class="benefit__item">Làm giảm nguy cơ trầm cảm giúp tâm trạng ổn định và cân bằng.</li>
+                                            <li class="benefit__item">Giảm nguy cơ tiền tai biến.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="benefit__iwrap">
+                                        <img src="./images/chiropractic-benefit-1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="benefit benefit-reverse">
+                                    <div class="benefit__content">
+                                        <ul class="benefit__list">
+                                            <li class="benefit__item">Điều trị từ gốc bệnh lý Cơ – Xương – Khớp.</li>
+                                            <li class="benefit__item">Phục hồi chấn thương nhanh chóng.</li>
+                                            <li class="benefit__item">Nâng cao hiệu suất vận động.</li>
+                                            <li class="benefit__item">Tăng khả năng phản xạ, khả năng giữ thăng bằng và sự dẻo dai.</li>
+                                            <li class="benefit__item">Ngăn chặn hoạt động khác thường của khớp.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="benefit__iwrap">
+                                        <img src="./images/chiropractic-benefit-2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="benefit">
+                                    <div class="benefit__content">
+                                        <ul class="benefit__list">
+                                            <li class="benefit__item">Điều trị từ gốc bệnh lý về cột sống &amp; thần kinh cột sống</li>
+                                            <li class="benefit__item">Cải thiện tư thế, tăng chiều cao tối ưu.</li>
+                                            <li class="benefit__item">Bảo dưỡng đường cong sinh lý cột sống.</li>
+                                            <li class="benefit__item">Kích thích các sức khỏe tiềm năng tối ưu.</li>
+                                        </ul>
+                                    </div>
+                                    <div class="benefit__iwrap">
+                                        <img src="./images/chiropractic-benefit-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <h2 class="title">Các trường hợp chỉ định</h2>
+                <div class="text-content">
+                    <p>Chiropractic không giới hạn đối tượng điều trị, bao gồm cả
+                        <strong>trẻ sơ sinh, trẻ em, người lớn, phụ nữ có thai, người cao tuổi</strong>
+                        và
+                        <strong>vận động viên thể thao</strong>
+                        với khả năng điều trị hiệu quả các bệnh lý liên quan đến hệ vận động và các vấn đề liên quan đến cột sống & thần kinh cột sống như:
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-sm-10 offset-sm-1 mb-30">
+                        <div class="case">
+                            <div class="case__body">
+                                <div class="case__title">
+                                    <span>Nhóm</span>
+                                    <span>bệnh</span>
+                                    <span>cột</span>
+                                    <span>sống</span>
+                                    <span>lưng</span>
+                                </div>
+                                <ul class="case__list">
+                                    <li class="case__item">Đau cột sống thắt lưng</li>
+                                    <li class="case__item">Đau thần kinh tọa</li>
+                                    <li class="case__item">Thoái hóa đốt sống lưng</li>
+                                    <li class="case__item">Thoát vị đĩa đệm đốt sống lưng</li>
+                                    <li class="case__item">Cong vẹo cột sống</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-sm-10 offset-sm-1 mb-30">
+                        <div class="case">
+                            <div class="case__body">
+                                <div class="case__title">
+                                    <span>Nhóm</span>
+                                    <span>bệnh</span>
+                                    <span>cột</span>
+                                    <span>sống</span>
+                                    <span>cổ</span>
+                                </div>
+                                <ul class="case__list">
+                                    <li class="case__item">Thoái hóa đốt sống cổ</li>
+                                    <li class="case__item">Thoát vị đĩa đệm cổ</li>
+                                    <li class="case__item">Đau mỏi vai, cổ, gáy</li>
+                                    <li class="case__item">Đau đầu, đau nửa đầu</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-sm-10 offset-sm-1 mb-30">
+                        <div class="case">
+                            <div class="case__body">
+                                <div class="case__title">
+                                    <span>Nhóm</span>
+                                    <span>bệnh</span>
+                                    <span>cơ</span>
+                                    <i>-</i>
+                                    <span>xương</span>
+                                    <i>-</i>
+                                    <span>khớp</span>
+                                </div>
+                                <ul class="case__list">
+                                    <li class="case__item">Đau nhức cơ – xương – khớp</li>
+                                    <li class="case__item">Thoái hóa xương khớp</li>
+                                    <li class="case__item">Viêm khớp</li>
+                                    <li class="case__item">Viêm đa khớp dạng thấp</li>
+                                    <li class="case__item">Tê bì chân tay</li>
+                                    <li class="case__item">Dị tật bàn chân bẹt</li>
+                                    <li class="case__item">Chấn thương thể thao</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-content">
+                    <p>Ngoài ra, tùy theo tình trạng bệnh lý của mỗi bệnh nhân, các Giáo sư, Bác sĩ tại IREC CLINIC sẽ lên phác đồ điều trị cho từng giai đoạn với liệu trình khép kín, kết hợp giữa Chiropractic với các phương pháp vật lý trị liệu hỗ trợ như:
+                        sóng siêu âm, lazer giảm co thắt cơ, giảm đau; các dòng điện giảm đau, đèn hồng ngoại, thấu nhiệt vi sóng; sóng xung kích; kéo giãn, hệ thống giảm áp cột sống… nhằm</p>
+                    <strong class="text-green">tối đa hóa hiệu quả</strong>
+                    liệu trình và
+                    <strong class="text-green">rút ngắn thời gian</strong>
+                    điều trị.
+                </div>
+            </div>
+        </section>
+        <!-- difference questions-->
+        <section class="section">
+            <div class="container">
+                <h2 class="section__title">Câu hỏi thường gặp</h2>
+                <div class="question">
+                    <img class="question__icon" src="./images/icon-question.png" alt="" />
+                    <div class="question__text">Làm thế nào để biết được chính xác có bị thoát vị đĩa đệm hay không?</div>
+                </div>
+                <div class="answer">
+                    <img class="answer__icon" src="./images/icon-answer.png" alt="" />
+                    <div class="answer__content">
+                        <p>Thoát vị đĩa đệm và xoắn các chùm cơ dọc cột sống đều có triệu chứng tương đồng. Do đó để chuẩn đoán chính xác có bị thoát vị đĩa đệm hay không đòi hỏi phải có các thiết bị hiện đại và kiến thức chuyên khoa của Bác sĩ.</p>
+                        <p>Theo đó, phòng khám IREC được trang bị đầy đủ hệ thống các trang thiết bị chẩn đoán hình ảnh hiện đại như:
+                            <strong>Máy siêu âm 4D Voluson 8 GE Healthcare, Hệ thống chụp cộng hưởng từ Magnetom amira 1.5 Telsa của Siemens, Máy X-quang Kỹ thuật số của Hàn quốc...</strong>
+                            cho kết quả chuẩn đoán chính xác các điểm thoát vị đĩa đệm trên cột sống.
+                        </p>
+                    </div>
+                </div>
+                <div class="question">
+                    <img class="question__icon" src="./images/icon-question.png" alt="" />
+                    <div class="question__text">Điều trị với hệ thống giảm áp cột sống không phẫu thuật (D.O.C) như thế nào?</div>
+                </div>
+                <div class="answer">
+                    <img class="answer__icon" src="./images/icon-answer.png" alt="" />
+                    <div class="answer__content">
+                        <p>Được trang bị với một hệ thống dây tự động, DOC sẽ từ từ đưa cột sống của bệnh nhân về vị trí phù hợp. Hệ thống dây chằng thoải mái giúp ổn định vùng hông và xương chậu của bệnh nhân. Hầu hết bệnh nhân cho biết: họ hầu như không
+                            cảm thấy cột sống bị khó chịu trong quá trình giảm áp.</p>
+                        <p>Hệ thống điều khiển tiên tiến trong hệ thống giảm áp tự động giúp điều chỉnh và giám sát góc nghiêng thích hợp, cho phép xác định vị trí các đĩa đệm gây ra đau đớn của bệnh nhân; cùng với việc sử dụng đường cong logarithmic để
+                            tránh phản ứng proprioceptor (co thắt cơ thông thường). Ngoài ra, thiết kế giường phân tích giúp giảm ma sát và cho phép tách nhẹ nhàng đốt sống và giảm thiểu tác động của trọng lực.</p>
+                        <p>Thông thường, bệnh nhân chỉ cần thư giãn và máy DOC sẽ tạo ra một hiệu ứng giảm áp trên lưng của bệnh nhân giúp đĩa đệm bị thoát vị trở lại trạng thái bình thường và ngừng gây đau đớn. Việc điều trị giảm áp chỉ như một quá trình
+                            kéo liên tục nhẹ nhàng. Vì vậy, người bệnh có thể thư giãn, thậm chí ngủ thiếp đi trong quá trình điều trị.</p>
+                    </div>
+                </div>
+                <div class="text-center py-20">
+                    <a class="m-btn m-btn--green" href="#!">ĐẶT LỊCH TƯ VẤN MIỄN PHÍ VỚI BÁC SĨ MỸ</a>
+                </div>
+            </div>
+        </section>
+        <section class="lp-intro">
+            <div class="lp-intro__human">
+                <img class="lp-intro__human-bg" src="./images/human-intro-bg.png" alt="" />
+                <div class="lp-intro__content">
+                    <p>ĐỘI NGŨ GIÁO SƯ - BÁC SĨ ĐẦU NGÀNH
+                        <br/>về Cơ - Xương - Khớp - Thần kinh Cột sống
+                        <br/>và Phục hồi chức năng tại Việt Nam.
+                        <br/>
+                    </p>
+                    <p style="text-align: center;">
+                        <span style="display: inline-block; width: 300px; max-width: 100%; border-top: 1px solid #fff;"></span>
+                    </p>
+                    <p>Kết hợp với bác sĩ Chiropractic nước ngoài
+                        <br/>để trực tiếp thăm khám & điều trị theo suốt liệu trình
+                        <br/>cho khách hàng.</p>
+                </div>
+            </div>
+            <div class="lp-intro__equipment">
+                <img class="lp-intro__equipment-bg" src="./images/equipment-intro-bg.png" alt="" />
+                <div class="lp-intro__content">
+                    <p>HỆ THỐNG TRANG THIẾT BỊ - CÔNG NGHỆ
+                        <br/>HIỆN ĐẠI BẬC NHẤT
+                        <br/>Đạt tiêu chuẩn chất lượng dịch vụ 5 sao</p>
+                </div>
+            </div>
+        </section>
+        <!-- footer-->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <section class="f-contact">
+                            <div class="f-contact__header">
+                                <a class="f-contact__logo" href="./">
+                                    <img src="./images/logo-white.png" alt="" />
+                                </a>
+                            </div>
+                            <div class="f-contact__content">
+                                <p>TẦNG 6, SỐ 52 BÀ TRIỆU, HOÀN KIẾM, HÀ NỘI
+                                    <br/>
+                                    <strong>HOTLINE:</strong>
+                                    <a href="tel:0914838232">0914 838 232</a>
+                                    <br/>
+                                    <br/>
+                                    <strong>TEL:</strong>
+                                    <a href="tel:02436895252">(024) 3689 5252</a>
+                                    <br/>
+                                    <strong>EMAIL:</strong>
+                                    <a href="#!">CONTACT@IREC.COM.VN</a>
+                                </p>
+                                <p>
+                                    <strong>GIỜ MỞ CỬA:</strong>
+                                    <br/>Thứ 2 | Thứ 3: Từ 8h - 17h
+                                    <br/>Thứ 4: 8h - 19h
+                                    <br/>Thứ 5 | Thứ 6 | Thứ 7: 8h - 17h
+                                    <br/>Chủ nhật: NGHỈ</p>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col-lg-7">
+                        <section class="f-about">
+                            <h2 class="f-about__title">Về chúng tôi</h2>
+                            <div class="f-about__content">
+                                <p style="margin-bottom: 10px; font-size: 18px; line-height: 22px;">Là phòng khám đầu tiên tại Việt Nam cung cấp đầy đủ các dịch vụ Chăm sóc sức khỏe hệ Cơ – Xương – Khớp – Cột Sống và Phục hồi chức năng toàn diện, với đầy đủ các chức năng cận lâm sàng & chuẩn đoán hình ảnh cần thiết trong
+                                    cùng một không gian - Irec tự hào là nơi quy tụ đông đảo Giáo sư - Bác sĩ đầu ngành trong nước và các chuyên gia hàng đầu trong lĩnh vực Chiropractic đến từ Mỹ, Anh, Nhật.</p>
+                                <p style="margin-bottom: 10px; font-size: 18px; line-height: 22px;">Kết hợp ứng dụng phương pháp nắn chỉnh thần kinh cột sống Chiropractic cùng hệ thống trang thiết bị Physio Therapy hiện đại nhất thế giới – Irec cam kết mang đến những liệu trình khoa học, chuyên sâu, rút ngắn thời gian
+                                    phục hồi, đồng thời tối đa hóa hiệu quả điều trị cho khách hàng mà hoàn toàn KHÔNG dùng thuốc, KHÔNG tiêm và HẠN CHẾ tối đa các nguy cơ phẫu thuật.</p>
+                            </div>
+                        </section>
+                        <ul class="f-social">
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-facebook-o.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-wechat-o.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-twitter-o.png" alt="" />
+                                </a>
+                            </li>
+                            <li class="f-social__item">
+                                <a class="f-social__link" href="#!">
+                                    <img src="./images/icon-instagram-o.png" alt="" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__copyright">Copyright © 2019 IREC CLINIC - all rights reserved</div>
+            </div>
+        </footer>
+        <!-- javascript library-->
+        <!-- vendor script-->
+        <script src="./vendor/jquery/jquery-3.3.1.min.js"></script>
+        <script src="./vendor/popper/popper.min.js"></script>
+        <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="./vendor/swiper/js/swiper.min.js"></script>
+        <!-- custom script-->
+        <script src="./js/globals.js"></script>
+    </body>
+</html>
