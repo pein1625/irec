@@ -8841,7 +8841,7 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 700; }
 
 body {
-  font-family: Arial, Helvetica, sans-serif; }
+  font-family: "HelveticaNeue", sans-serif; }
 
 img {
   max-width: 100%; }
@@ -8867,7 +8867,7 @@ select:focus {
 
 .m-btn {
   display: inline-block;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   line-height: 36px;
   padding: 0 10px;
@@ -8891,7 +8891,7 @@ select:focus {
       padding: 10px 20px; } }
 
 .title {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 36px;
   line-height: 1.2;
   font-weight: 700;
@@ -8904,7 +8904,7 @@ select:focus {
       font-size: 24px; } }
 
 .text-content {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   line-height: 1.2;
   text-align: justify; }
@@ -9821,7 +9821,7 @@ select:focus {
           align-items: center;
   padding: 0;
   border-radius: 0 !important;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 24px;
   color: #343a40;
   background-color: #e1e1e1; }
@@ -10074,7 +10074,7 @@ select:focus {
   z-index: 1040; }
 
 .footer {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-weight: 300;
   background-color: #252525;
   color: #fff; }
@@ -10345,7 +10345,7 @@ select:focus {
             align-items: center;
     text-align: center;
     text-align: center;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 29px;
@@ -10360,7 +10360,7 @@ select:focus {
 
 .news {
   position: relative;
-  font-family: "HelveticaNeue"; }
+  font-family: "HelveticaNeue", sans-serif; }
   .news__iwrap {
     display: block;
     position: relative;
@@ -10432,7 +10432,7 @@ select:focus {
        object-position: 50% 50%; }
 
 .news-2__title {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   font-weight: bold;
   -webkit-transition: .3s;
@@ -10448,7 +10448,7 @@ select:focus {
   line-height: 1.5;
   -webkit-line-clamp: 3;
   max-height: 4.5em;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 14px;
   color: #858585;
   text-align: justify; }
@@ -10489,7 +10489,7 @@ select:focus {
        object-position: 50% 50%; }
 
 .news-3__title {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 14px;
   font-weight: 700;
   color: #858585;
@@ -10666,7 +10666,7 @@ select:focus {
     max-width: 240px;
     margin: 0 auto;
     text-align: center;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
@@ -10733,7 +10733,7 @@ select:focus {
   padding: 0 65px 0 20px; }
 
 .effective__title {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 16px;
   line-height: 18px;
   font-weight: bold;
@@ -10776,7 +10776,7 @@ select:focus {
           justify-content: center; }
 
 .feature__title {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -11040,7 +11040,7 @@ select:focus {
 
 .syndrome {
   height: 100%;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   border: 0;
   background-color: #fdc689;
   color: #fff; }
@@ -11094,7 +11094,7 @@ select:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-family: "HelveticaNeue"; }
+  font-family: "HelveticaNeue", sans-serif; }
   .stage__iwrap {
     display: block;
     position: relative;
@@ -11226,7 +11226,7 @@ select:focus {
             align-items: center;
     text-align: center;
     color: #fff;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 36px;
     font-weight: bold;
     line-height: 1.2;
@@ -11253,7 +11253,7 @@ select:focus {
   min-height: 120px;
   padding: 0 70px;
   border-radius: 60px;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   line-height: 1.2; }
   .sign__title {
@@ -11275,7 +11275,7 @@ select:focus {
       -ms-flex-direction: column;
           flex-direction: column;
   height: 100%;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px; }
   .sign-2__iwrap {
     display: block;
@@ -11340,7 +11340,7 @@ select:focus {
     margin-bottom: 0; }
 
 .aside__title {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 30px;
@@ -11394,7 +11394,7 @@ select:focus {
         -ms-flex-align: center;
             align-items: center; }
   .banner__text {
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
     font-size: 42px;
@@ -11516,14 +11516,14 @@ select:focus {
             transform: skewY(-30deg); }
 
 .banner-2__text {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
   color: #fff; }
 
 .banner-2__text-2 {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-weight: 700;
   font-size: 24px;
   text-align: center;
@@ -11547,7 +11547,7 @@ select:focus {
 
 .banner-2__btn {
   display: inline-block;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -11571,7 +11571,7 @@ select:focus {
       -ms-flex-pack: center;
           justify-content: center;
   color: #fff;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 23px;
   font-weight: bold;
   font-style: normal;
@@ -11626,7 +11626,7 @@ select:focus {
 .section {
   padding: 40px 0 30px; }
   .section__title {
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: #56826e;
@@ -11714,7 +11714,7 @@ select:focus {
     border-radius: 4px;
     border: 1px solid #fff;
     color: #fff;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 18px;
     font-weight: 700;
     background-color: transparent; }
@@ -11744,7 +11744,7 @@ select:focus {
   .appointment .form-group {
     margin-bottom: 20px; }
   .appointment .form-control {
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     border-color: #fff;
     background-color: #ededed;
     font-size: 20px;
@@ -11882,7 +11882,7 @@ select:focus {
     z-index: -1; }
   .id-system__block {
     text-align: center;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 24px;
     font-weight: 300;
     line-height: 40px; }
@@ -11892,7 +11892,7 @@ select:focus {
     padding: 0 30px; }
   .id-system__btn {
     display: inline-block;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
@@ -11999,7 +11999,7 @@ select:focus {
   .news-section__title span {
     display: inline-block;
     padding: 0 50px;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 50px;
@@ -12026,7 +12026,7 @@ select:focus {
   border-bottom: 1px dashed #0c4b2e; }
 
 .post {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   line-height: 1.2;
   padding-top: 30px; }
   .post-title {
@@ -12062,7 +12062,7 @@ select:focus {
       text-align: justify; }
 
 .lp-define__content {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   line-height: 22px; }
   .lp-define__content p {
@@ -12091,7 +12091,7 @@ select:focus {
   display: none; }
 
 .lp-define__subtitle {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -12114,7 +12114,7 @@ select:focus {
             transform: translateX(-50%); }
 
 .lp-define__bold-text {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
@@ -12124,7 +12124,7 @@ select:focus {
   color: #464646; }
 
 .lp-define__text {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   text-align: justify;
   font-size: 18px;
   line-height: 21px; }
@@ -12171,7 +12171,7 @@ select:focus {
       background-position: 100% 50%;
       background-color: #95c23d; }
   .lp-recognize__subtitle {
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
@@ -12194,7 +12194,7 @@ select:focus {
         right: auto;
         left: 0; }
   .lp-recognize__detail {
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-size: 20px;
     line-height: 24px; }
     .lp-recognize__detail ul {
@@ -12228,134 +12228,140 @@ select:focus {
         left: 0; } }
 
 .recuperate__desc {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 18px;
   line-height: 1.2; }
 
-.recuperate__wrapper {
-  background-color: #95c23d;
-  color: #fff;
-  padding: 40px;
-  position: relative;
-  z-index: 1; }
-
-.recuperate__content {
-  position: static; }
-
-.recuperate__bg {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-  height: 100%;
-  max-width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -o-object-position: 50% 50%;
-     object-position: 50% 50%; }
-
-.recuperate__tabs {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  height: 100%;
-  border-right: 1px solid #fff; }
-  .recuperate__tabs .nav-link {
-    font-family: "HelveticaNeue";
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #fff; }
-    .recuperate__tabs .nav-link:hover {
-      color: #fff; }
-    .recuperate__tabs .nav-link.active {
-      font-weight: bold;
-      position: relative; }
-      .recuperate__tabs .nav-link.active::before {
-        content: '';
-        display: block;
-        width: 16px;
-        height: 20px;
-        background: url("../images/icon-arrow-white.png") center/contain no-repeat;
-        position: absolute;
-        top: 11px;
-        left: -10px; }
-
-.recuperate__post {
-  padding: 0 70px 0 100px;
-  font-size: 14px;
-  line-height: 1.2; }
-  .recuperate__post p {
-    text-align: justify; }
-    .recuperate__post p:last-child {
-      margin-bottom: 0; }
-  .recuperate__post ul {
-    list-style: none;
-    padding-left: 0; }
-    .recuperate__post ul li {
-      padding-left: 35px;
-      position: relative;
-      margin-bottom: 10px; }
-      .recuperate__post ul li::before {
-        content: '';
-        display: inline-block;
-        width: 6px;
-        height: 6px;
-        border-radius: 50%;
-        background-color: #fff;
-        position: absolute;
-        top: 6px;
-        left: 5px; }
-      .recuperate__post ul li:last-child {
-        margin-bottom: 0; }
-
-.recuperate__post-2 {
-  font-family: "HelveticaNeue";
-  font-size: 14px;
-  line-height: 1.2;
-  background-color: rgba(0, 0, 0, 0.3);
-  border-radius: 4px;
-  color: #fff;
-  padding: 12px;
-  max-width: 378px;
-  margin-left: auto;
-  text-align: justify; }
-  .recuperate__post-2 ul {
-    padding-left: 0;
-    list-style-position: inside; }
-    .recuperate__post-2 ul li {
-      margin-bottom: 10px; }
-      .recuperate__post-2 ul li:last-child {
-        margin-bottom: 0; }
-  .recuperate__post-2 p:last-child,
-  .recuperate__post-2 ul:last-child {
-    margin-bottom: 0; }
-
 @media (max-width: 1199px) {
-  .recuperate__wrapper {
-    padding: 30px; }
-  .recuperate__tabs {
-    padding-right: 20px; }
   .recuperate__post {
     padding: 0 0 0 20px; } }
 
-@media (max-width: 991px) {
-  .recuperate__tabs {
-    height: auto;
-    border-right: 0;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid #fff; }
-  .recuperate__content {
+.intro {
+  background-color: #95c23d; }
+  .intro__tabs-wrap {
+    height: 100%;
+    padding: 40px 0 40px 40px; }
+  .intro__tabs {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    border-right: 1px solid #fff; }
+    .intro__tabs .nav-link {
+      font-family: "HelveticaNeue", sans-serif;
+      font-size: 18px;
+      text-transform: uppercase;
+      color: #fff; }
+      .intro__tabs .nav-link:hover {
+        color: #fff; }
+      .intro__tabs .nav-link.active {
+        font-weight: bold;
+        position: relative; }
+        .intro__tabs .nav-link.active::before {
+          content: '';
+          display: block;
+          width: 16px;
+          height: 20px;
+          background: url("../images/icon-arrow-white.png") center/contain no-repeat;
+          position: absolute;
+          top: 11px;
+          left: -10px; }
+  .intro__tab {
+    height: 490px;
     position: relative;
-    padding: 30px !important;
-    margin: -30px;
-    width: calc(100% + 60px); } }
-
-@media (max-width: 575px) {
-  .recuperate__wrapper {
-    background-image: unset;
-    margin: 0 -15px; } }
+    z-index: 1; }
+    .intro__tab.active {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+  .intro__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    height: 100%; }
+  .intro__panel {
+    font-family: "HelveticaNeue", sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    color: #fff;
+    padding: 12px;
+    margin-left: auto;
+    text-align: justify; }
+    .intro__panel ul {
+      padding-left: 0;
+      list-style-position: inside; }
+      .intro__panel ul li {
+        margin-bottom: 10px; }
+        .intro__panel ul li:last-child {
+          margin-bottom: 0; }
+    .intro__panel p:last-child,
+    .intro__panel ul:last-child {
+      margin-bottom: 0; }
+    .intro__panel--1 {
+      max-width: 326px;
+      margin: auto 30px 30px auto; }
+    .intro__panel--2 {
+      max-width: 378px;
+      margin: auto 30px 30px auto; }
+    .intro__panel--3 {
+      max-width: 324px;
+      margin: auto auto auto 0; }
+  .intro__post {
+    color: #fff;
+    padding: 46px 70px 0;
+    font-size: 14px;
+    line-height: 1.2; }
+    .intro__post hr {
+      border-color: #fff; }
+    .intro__post p {
+      text-align: justify; }
+      .intro__post p:last-child {
+        margin-bottom: 0; }
+    .intro__post ul {
+      list-style: none;
+      padding-left: 0; }
+      .intro__post ul li {
+        padding-left: 35px;
+        position: relative;
+        margin-bottom: 10px; }
+        .intro__post ul li::before {
+          content: '';
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          border-radius: 50%;
+          background-color: #fff;
+          position: absolute;
+          top: 6px;
+          left: 5px; }
+        .intro__post ul li:last-child {
+          margin-bottom: 0; }
+  @media (max-width: 767px) {
+    .intro__tabs-wrap {
+      padding: 0 40px; }
+    .intro__tabs {
+      height: auto;
+      padding: 20px 0;
+      margin-bottom: 0;
+      border-right: 0;
+      border-bottom: 1px solid #fff; }
+      .intro__tabs .nav-link {
+        font-size: 14px; }
+    .intro__tab {
+      overflow: hidden; }
+    .intro__bg {
+      max-width: unset; }
+    .intro__panel--3 {
+      margin: auto 15px 95px auto; } }
+  @media (max-width: 575px) {
+    .intro {
+      margin: 0 -15px; }
+      .intro__panel--2 {
+        margin: auto 20px 20px; } }
 
 .criteria-wrap {
   display: -webkit-box;
@@ -12413,7 +12419,7 @@ select:focus {
   min-height: 72px;
   position: relative;
   margin-bottom: 10px;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-size: 24px;
   line-height: 1.2;
   font-weight: bold;
@@ -12440,7 +12446,7 @@ select:focus {
 .answer {
   padding: 0 64px 0 75px;
   margin-bottom: 10px;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
@@ -12549,7 +12555,7 @@ select:focus {
     top: 0;
     left: 0;
     color: #fff;
-    font-family: "HelveticaNeue";
+    font-family: "HelveticaNeue", sans-serif;
     font-weight: 300;
     text-align: center;
     font-size: 24px;
@@ -12605,7 +12611,7 @@ select:focus {
       font-size: 16px; } }
 
 .treatment {
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   background: url("../images/treatment-bg.jpg") center/cover no-repeat;
   font-size: 14px;
   line-height: 1.2;
@@ -12668,7 +12674,7 @@ select:focus {
 
 .section-2 {
   height: 100%;
-  font-family: "HelveticaNeue";
+  font-family: "HelveticaNeue", sans-serif;
   position: relative;
   z-index: 1;
   color: #535353;
